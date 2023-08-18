@@ -1,0 +1,35 @@
+
+@font-face {
+    font-family: rdlight;
+    src: url(../fonts/RecifeDisplay-Light.ttf);
+  }
+  .drawerr {
+text-align: center;
+
+
+}
+.drawer_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: rgba(255, 255, 255, 0.75);
+    width: 60%;
+   margin-left: auto;
+   margin-right: auto;
+font-family: rdlight;
+font-size: 3.5vh;
+font-style: normal;
+font-weight: 300;
+line-height: 100%; /* 40px */
+}
+.Nav_button{
+ 
+ cursor: pointer;
+ text-align: center;
+
+ cursor: pointer;
+ position: fixed;
+ bottom: 20px;
+
+ width: 100%;
+}
