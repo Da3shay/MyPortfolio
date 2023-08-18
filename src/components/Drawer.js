@@ -15,14 +15,14 @@ export default function Drawerr({ setOpen, open }) {
   return (
     <Drawer
       placement="bottom"
-  
-     height={280}
+      closeIcon={false}
+      height={280}
       destroyOnClose={true}
       maskStyle={{opacity:"20%",background:"#505050"}}
-      onClose={onClose}
+      // onClose={onClose}
       open={open}
     zIndex={50}
-      style={{ background: "#0D0D0D",borderRadius:"100px 100px 0 0",border:"0px"}}
+      style={{ background: "#0D0D0D",borderRadius:"70px 70px 0 0",border:"0px"}}
     
     >
       <div className="drawerr">
