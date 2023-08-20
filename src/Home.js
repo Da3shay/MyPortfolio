@@ -2,8 +2,12 @@ import React, {useState} from "react";
 import "./home.css";
 import { bottomNavIcon } from "./Assets/images";
 import Drawerr from "./components/Drawer";
+import $ from 'jquery';
 
 export default function Home() {
+  $(window).on("load",function(){
+    $(".loader-wrapper").fadeOut("slow");
+});
 
     const [open, setOpen] = useState(false);
     const showDrawer = () => {
@@ -62,7 +66,9 @@ export default function Home() {
        <img style={{width:"9vh"}} className="buttonrotate" id="rotat" onClick={showDrawer} src={bottomNavIcon}/> 
         </div>
     <Drawerr setOpen={setOpen} open={open}/>
- 
+    <div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+  </div>
     </div>
   );
 }
