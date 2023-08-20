@@ -27,11 +27,11 @@ export default function Drawerr({ setOpen, open }) {
     >
       <div className="drawerr">
         <div className="drawer_header">
-          <div>Home</div>
-          <div>About Me</div>
-          <div>My Work</div>
-          <div>Connect</div>
-          <div>Light Mode </div>
+          <div className="drawer_tabs">HOME</div>
+          <div  className="drawer_tabs">ABOUT ME</div>
+          <div  className="drawer_tabs"> MY WORK</div>
+          <div  className="drawer_tabs">CONNECT</div>
+          <div  className="drawer_tabs">LIGHT MODE </div>
         </div>
         {/* <div className="Nav_button">
           <img style={{width:"9vh"}} onClick={onClose} src={bottomNavIcon} />

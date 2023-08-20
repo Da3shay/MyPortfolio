@@ -11,12 +11,16 @@ export default function Home() {
         if(open===true)
         {
             setOpen(false)
+        
             document.getElementById("rotat").style.rotate = "0deg";
+            document.getElementById("rotat").style.transitionDuration = "0.7s";
+
         }
         if(open===false)
         {
             setOpen(true)
             document.getElementById("rotat").style.rotate = "180deg";
+            document.getElementById("rotat").style.transitionDuration = "0.7s";
         }
    
        

@@ -1,35 +1,47 @@
-
 @font-face {
-    font-family: rdlight;
-    src: url(../fonts/RecifeDisplay-Light.ttf);
-  }
-  .drawerr {
-text-align: center;
-margin-top: 40px;
-
+  font-family: rdlight;
+  src: url(../fonts/RecifeDisplay-Light.ttf);
+}
+@font-face {
+  font-family: rdregular;
+  src: url(../fonts/RecifeDisplay-Regular.ttf);
+}
+.drawerr {
+  text-align: center;
+  margin-top: 40px;
 }
 .drawer_header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    color: rgba(255, 255, 255, 0.75);
-    width: 60%;
-   margin-left: auto;
-   margin-right: auto;
-font-family: rdlight;
-font-size: 3.5vh;
-font-style: normal;
-font-weight: 300;
-line-height: 100%; /* 40px */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: rgba(255, 255, 255, 0.75);
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: rdlight;
+  font-size: 3.5vh;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 100%; /* 40px */
 }
-.Nav_button{
- 
- cursor: pointer;
- text-align: center;
+.Nav_button {
+  cursor: pointer;
+  text-align: center;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  width: 100%;
+}
+.drawer_tabs{
+  cursor: pointer;
+  
+}
+.drawer_tabs:hover{
+color: white;
 
- cursor: pointer;
- position: fixed;
- bottom: 20px;
+padding-top: 3px;
+transition-duration: 0.2s;
 
- width: 100%;
+
+
 }
