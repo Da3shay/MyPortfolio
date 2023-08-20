@@ -34,6 +34,7 @@
 }
 .drawer_tabs{
   cursor: pointer;
+  color: #464646;
   
 }
 .drawer_tabs:hover{
