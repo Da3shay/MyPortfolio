@@ -18,7 +18,7 @@ export default function Drawerr({ setOpen, open }) {
       closeIcon={false}
       height={280}
       destroyOnClose={true}
-      maskStyle={{opacity:"20%",background:"#505050"}}
+      maskStyle={{opacity:"30%",background:"#505050"}}
       // onClose={onClose}
       open={open}
     zIndex={50}
