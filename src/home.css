@@ -26,6 +26,7 @@
 
  
 }
+
 .section1 {
   display: flex;
   justify-content: space-between;
@@ -54,8 +55,10 @@
   font-size: 4.5vh;
   font-style: normal;
   line-height: 100%;  
-  cursor: pointer;
-
+  
+}
+.tabs::selection{
+  background: #fff;
 }
 .tabs:hover{
   color: white;
@@ -85,7 +88,7 @@ transition-duration: 0.2s;
 .icon{
 text-align: center;
  margin-top: 10vh;
- cursor: pointer;
+
  position: fixed;
  bottom: 20px;
  z-index: 100;

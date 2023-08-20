@@ -36,7 +36,7 @@ export default function Home() {
           {user.name}
         </div>
         <div className="menu">
-          <div className="tabs">About Me .</div>
+          <div className="tabs" id="text" >About Me .</div>
           <div className="tabs">My Work .</div>
           <div className="tabs">Connect .</div>
         </div>
