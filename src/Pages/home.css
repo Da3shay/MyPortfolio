@@ -1,22 +1,22 @@
 @font-face {
   font-family: rdlight;
-  src: url(fonts/RecifeDisplay-Light.ttf);
+  src: url(../fonts/RecifeDisplay-Light.ttf);
 }
 @font-face {
   font-family: rdsemibold;
-  src: url(fonts/RecifeDisplay-SemiBold.ttf);
+  src: url(../fonts/RecifeDisplay-SemiBold.ttf);
 }
 @font-face {
   font-family: rdregular;
-  src: url(fonts/RecifeDisplay-Regular.ttf);
+  src: url(../fonts/RecifeDisplay-Regular.ttf);
 }
 @font-face {
   font-family: rdblack;
-  src: url(fonts/RecifeDisplay-Black.ttf);
+  src: url(../fonts/RecifeDisplay-Black.ttf);
 }
 @font-face {
   font-family: rdbold;
-  src: url(fonts/RecifeDisplay-Bold.ttf);
+  src: url(../fonts/RecifeDisplay-Bold.ttf);
 }
 
 .Home {

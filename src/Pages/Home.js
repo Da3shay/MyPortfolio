@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "./home.css";
-import { bottomNavIcon } from "./Assets/images";
-import Drawerr from "./components/Drawer";
+import { bottomNavIcon } from "../Assets/images";
+import Drawerr from "../components/Drawer";
 
-import { user } from "./userdetails";
+import { user } from "../userdetails";
 
 
 export default function Home() {

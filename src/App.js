@@ -1,9 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Home from "./Home";
+import Home from "./Pages/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import $ from "jquery";
 import AnimatedCursor from "react-animated-cursor"
+import Aboutus from "./Pages/Aboutus";
+import Connect from "./Pages/Connect";
 
 
 
@@ -51,7 +53,8 @@ function App() {
         <Routes>
           <Route path="/">
             <Route index element={<Home />} />
-            <Route path="login" element={<Home />} />
+            <Route path="aboutus" element={<Aboutus />} />
+            <Route path="connect" element={<Connect />} />
           </Route>
         </Routes>
       </BrowserRouter>
