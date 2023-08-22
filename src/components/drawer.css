@@ -25,24 +25,33 @@
   line-height: 100%; /* 40px */
 }
 .Nav_button {
-
   text-align: center;
 
   position: fixed;
   bottom: 20px;
   width: 100%;
 }
-.drawer_tabs{
-
+.drawer_tabs {
   color: #464646;
-  
 }
-.drawer_tabs:hover{
-color: white;
+.drawer_tabs:hover {
+  color: white;
 
-padding-top: 3px;
-transition-duration: 0.2s;
+  padding-top: 3px;
+  transition-duration: 0.2s;
+}
+.icon {
+  text-align: center;
+  margin-top: 10vh;
 
-
-
+  position: fixed;
+  bottom: 20px;
+  z-index: 100;
+  width: 100%;
+}
+.rotate-button {
+  transition: transform 10s;
+}
+.rotate-button.active {
+  transform: rotate(45deg);
 }

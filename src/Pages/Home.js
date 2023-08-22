@@ -49,16 +49,8 @@ export default function Home() {
         {user.home_body}
         </div>
       </div>
-      <div className="icon">
-        <img
-          style={{ width: "9vh" }}
-          className="buttonrotate"
-          id="rotat"
-          onClick={showDrawer}
-          src={bottomNavIcon}
-        />
-      </div>
-      <Drawerr setOpen={setOpen} open={open} />
+    
+      <Drawerr />
   
     </div>
   );
