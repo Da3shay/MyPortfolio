@@ -20,7 +20,9 @@ function App() {
     <AnimatedCursor
       innerSize={10}
       outerSize={15}
-      color='255, 255, 255'
+       color='255, 255, 255'
+     innerStyle={{mixBlendMode:"difference"}}
+     outerStyle={{mixBlendMode:"difference"}}
       outerAlpha={0.2}
       innerScale={0.7}
       outerScale={5}
