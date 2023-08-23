@@ -10,9 +10,12 @@ import Connect from "./Pages/Connect";
 
 
 function App() {
+
   $(window).on("load", function () {
+    console.log("sasasa")
     $(".loader-wrapper").fadeOut("slow");
   });
+  
 
   return (
 
